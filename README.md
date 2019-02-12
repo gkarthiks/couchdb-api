@@ -7,14 +7,9 @@ The CouchDB API accepts the following as environment variable.
 
 ENV Name | Description
 -- | --
-##### LISTEN_PORT
-The listening port for the CouchAPI server. This is mandatory.
-
-##### COUCHDB_PORT
-The DB Port number for CouchDB Host. Not mandatory if connecting via `k8s ingress`. The port number is mandatory if using the `service url`
-
-##### - COUCH_HOST
-The database host where the CouchDB is running. A `k8s ingress` or `svc url`. This is mandatory.
+LISTEN_PORT | The listening port for the CouchAPI server. This is mandatory.
+COUCHDB_PORT | The DB Port number for CouchDB Host. Not mandatory if connecting via `k8s ingress`. The port number is mandatory if using the `service url`
+COUCH_HOST | The database host where the CouchDB is running. A `k8s ingress` or `svc url`. This is mandatory.
 
 ##### SERVE_DATABASE
 The database in the above CouchDB to be read served over the API. This is mandatory.

@@ -11,7 +11,7 @@ The listening port for the CouchAPI server. This is mandatory.
 ##### COUCHDB_PORT
 The DB Port number for CouchDB Host. Not mandatory if connecting via `k8s ingress`. The port number is mandatory if using the `service url`
 
-##### COUCH_HOST
+##### - COUCH_HOST
 The database host where the CouchDB is running. A `k8s ingress` or `svc url`. This is mandatory.
 
 ##### SERVE_DATABASE

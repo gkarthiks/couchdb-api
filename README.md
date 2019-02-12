@@ -12,5 +12,5 @@ COUCHDB_PORT | The DB Port number for CouchDB Host. Not mandatory if connecting 
 COUCH_HOST | The database host where the CouchDB is running. A `k8s ingress` or `svc url`. This is mandatory.
 SERVE_DATABASE | The database in the above CouchDB to be read served over the API. This is mandatory.
 
-The server will serve all the data over the `/data` API. The logs are formatted using the `logrus`.
+The documents are served as is (JSON documents) over the `/data` API and the logs are formatted using the `logrus`.
 

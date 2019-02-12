@@ -15,4 +15,6 @@ The documents are served as is (JSON documents) over the `/data` API and the log
 
 *mandatory.
 
-The docker image is available here.
+The docker image is available here, click the whale..!
+<br/>
+[:whale:](https://cloud.docker.com/repository/docker/gkarthics/couchdb-api)

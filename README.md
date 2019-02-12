@@ -5,6 +5,8 @@ The CouchDB API runs over the Couch Go Lang dependency to connect to the CouchDB
 ## Input:
 The CouchDB API accepts the following as environment variable.
 
+ENV Name | Description
+-- | --
 ##### LISTEN_PORT
 The listening port for the CouchAPI server. This is mandatory.
 

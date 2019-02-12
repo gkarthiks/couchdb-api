@@ -14,3 +14,5 @@ SERVE_DATABASE* | The database in the above CouchDB to be read served over the A
 The documents are served as is (JSON documents) over the `/data` API and the logs are formatted using the `logrus`.
 
 *mandatory.
+
+The docker image is available here.

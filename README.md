@@ -17,4 +17,4 @@ The database host where the CouchDB is running. A `k8s ingress` or `svc url`. Th
 ##### SERVE_DATABASE
 The database in the above CouchDB to be read served over the API. This is mandatory.
 
-Serves all the COuchDB documents over the rest api
+The logs are formatted using the `logrus`.
